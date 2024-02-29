@@ -98,27 +98,6 @@ const ImageList = () => {
           sizes="50vw"
         />
       </Parallax>
-      <Image
-        src={"https://picsum.photos/400/600?random=3"}
-        alt="Image"
-        width={400}
-        height={600}
-        sizes="50vw"
-      />
-      <Image
-        src={"https://picsum.photos/600/400?random=4"}
-        alt="Image"
-        width={600}
-        height={400}
-        sizes="50vw"
-      />
-      <Image
-        src={"https://picsum.photos/600/400?random=5"}
-        alt="Image"
-        width={600}
-        height={400}
-        sizes="50vw"
-      />
     </>
   );
 };
