@@ -36,7 +36,7 @@ const MeshComponent = (props: ThreeElements["mesh"]) => {
 
 const Box = () => {
   return (
-    <div animate-box className="flex bg-white w-full h-screen">
+    <div className="animate-box flex bg-white w-full h-screen">
       <Canvas>
         <ambientLight intensity={Math.PI / 2} />
         <spotLight

@@ -1,9 +1,8 @@
 "use client";
-import { Box } from "@/components/Box";
+import BoxPlayground from "@/components/BoxPlayground";
 import ImageList from "@/components/ImageList";
 import Playground from "@/components/Playground";
 import { Shiba } from "@/components/Shiba";
-import { Canvas } from "@react-three/fiber";
 
 export default function Home() {
   return (
@@ -14,9 +13,8 @@ export default function Home() {
       <div className="h-screen"></div>
       <Shiba />
       <div className="h-screen"></div>
-      <Box />
-      <Box />
-      <Box />
+      <BoxPlayground />
+      <div className="h-screen"></div>
     </main>
   );
 }
