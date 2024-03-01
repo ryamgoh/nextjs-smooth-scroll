@@ -12,7 +12,7 @@ const BoxPlayground = () => {
         backgroundColor: "black",
         scrollTrigger: {
           start: "50% 50%",
-          markers: true,
+          // markers: true,
           trigger: box,
           scrub: true,
         },
@@ -20,7 +20,7 @@ const BoxPlayground = () => {
     });
   });
   return (
-    <div className="flex w-full flex-row overflow-hidden">
+    <div className="flex w-full flex-col overflow-hidden lg:flex-row">
       <Box />
       <Box />
       <Box />
